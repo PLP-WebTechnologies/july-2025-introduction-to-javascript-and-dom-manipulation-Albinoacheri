@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unity Learning Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1 id="site-title">Unity Learning</h1>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Learn Anytime, Anywhere</h2>
+    <p id="welcome-text">Welcome to Unity, your online learning hub.</p>
+    <button onclick="changeWelcome()">Change Welcome Message</button>
+  </section>
+
+  <!-- Course List -->
+  <section>
+    <h2>Available Courses</h2>
+    <ul id="course-list"></ul>
+    <button onclick="listCourses()">Show Courses</button>
+  </section>
+
+  <!-- Signup -->
+  <section>
+    <h2>Sign Up</h2>
+    <input type="text" id="username" placeholder="Enter your name">
+    <button onclick="greetUser()">Submit</button>
+    <p id="greeting"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Unity Learning | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
